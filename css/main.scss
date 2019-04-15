@@ -1,0 +1,140 @@
+@import 'media';
+
+$dark_brown: #333333;
+$light_green: #99cc99;
+$pink: #ff9999;
+%padding{
+    padding: 0 55px;
+}
+body *{
+    font-family: Gabriela;
+    font-weight: 400;
+}
+header{
+    padding-top: 40px;
+    @extend %padding;
+    background: url(../img/header-bg.png) center top no-repeat;
+    background-size: cover;
+    ul{
+        list-style: none;
+        margin: 0;
+        li{
+            background: url(../img/muffin-brown.png) left center no-repeat;
+            font-size: 27px;
+            padding-left: 35px;
+            margin-left: 45px;
+            a{
+                color: $dark_brown;
+            }
+            &:hover{
+                background: url(../img/muffin-pink.png) left center no-repeat;
+                a{
+                    color: $pink;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    h1{
+        color: #ffffff;
+        font-size: 65px;
+        text-transform: uppercase;
+        margin: 220px 0 100px;
+    }
+    .btn{
+        padding: 25px 50px;
+        margin: 0 auto 170px;
+        background-color: $light_green;
+        border-radius: 7px;
+        color: #ffffff;
+        font-size: 38px;
+        box-shadow: 0 3px 7px rgba(0, 0, 0, 0.6);
+        transition: 0.5s;
+        border-style: none;
+        &:hover{
+            box-shadow: none;
+        }
+        &:focus{
+            background-color: #68b968;
+        }
+    }
+    .modal-content{
+        background: rgb(255,255,203);
+        border: none;
+        .btn{
+            margin-bottom: 0;
+            font-size: 20px;
+        }
+        .form-control{
+            background-color: transparent;
+            margin: 20px 0;
+            &:focus{
+                background: linear-gradient(90deg, rgba(255,255,203,1) 0%, rgba(255,153,153,1) 100%);  
+            }
+        }
+        .close{
+            margin: -40px -40px 0 0;
+        }
+    }
+}
+section{
+    @extend %padding;
+    padding-bottom: 100px;
+    background: rgb(255,255,203);
+    background: linear-gradient(90deg, rgba(255,255,203,1) 0%, rgba(255,204,204,1) 35%, rgba(255,153,153,1) 100%);  
+    h2{
+        padding: 50px 0 80px;
+        color: $dark_brown;
+        font-size: 75px;
+        font-weight: bold;
+    }
+    p{
+        line-height: 40px;
+        font-size: 25px;
+    }
+    .carousel-small{
+        display: none;
+    }
+}
+section#details{
+    background: url(../img/Layer_6.png) center top no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #ffff;
+    .det_icon{
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+        background-color: $light_green;
+        border-radius: 50%;
+        font-size: 70px;
+        margin-bottom: 20px;
+    }
+}
+footer{
+    @extend %padding;
+    padding-top: 50px;
+    background-color: #7fcd98;
+    .footer-socials{
+        padding: 50px 0;
+        font-size: 70px;
+        a{
+            color: $dark_brown;
+            &:hover{
+                color: #464646;
+            }
+        }
+    }
+    .footer_address{
+        font-size: 35px;
+    }
+    #footer_map{
+        width: 400px;
+    }
+}
+.logo{
+    color: #333333;
+    font-family: 'Pacifico';
+    font-size: 37px;
+    font-weight: bold;
+}

@@ -1,0 +1,236 @@
+@media (max-width: 575.98px) {
+  body .hidden-xs {
+    display: none;
+  }
+  body .logo {
+    font-size: 25px;
+  }
+  body header {
+    padding-top: 20px;
+  }
+  body header nav ul {
+    text-align: right;
+  }
+  body header nav ul li {
+    font-size: 20px;
+    background: none;
+  }
+  body header nav ul li:hover {
+    background: none;
+  }
+  body header nav .fa-bars {
+    color: #333333;
+  }
+  body header .navbar {
+    padding: 0;
+  }
+  body header h1 {
+    font-size: 40px;
+    margin: 100px 0 100px;
+  }
+  body header .btn {
+    font-size: 20px;
+    margin-bottom: 150px;
+  }
+  body section h2 {
+    font-size: 50px;
+    padding: 35px 0;
+  }
+  body section p {
+    line-height: 25px;
+    font-size: 20px;
+  }
+  body footer {
+    padding-top: 20px;
+  }
+  body footer .footer-socials {
+    padding: 20px 0;
+    font-size: 40px;
+  }
+  body footer .footer_address {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  body header, body section, body footer {
+    padding: 10px 10px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #gallery .carousel-big {
+    display: none;
+  }
+  #gallery .carousel-small {
+    display: block;
+  }
+}
+
+header, section, footer {
+  padding: 0 55px;
+}
+
+body * {
+  font-family: Gabriela;
+  font-weight: 400;
+}
+
+header {
+  padding-top: 40px;
+  background: url(../img/header-bg.png) center top no-repeat;
+  background-size: cover;
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+}
+
+header ul li {
+  background: url(../img/muffin-brown.png) left center no-repeat;
+  font-size: 27px;
+  padding-left: 35px;
+  margin-left: 45px;
+}
+
+header ul li a {
+  color: #333333;
+}
+
+header ul li:hover {
+  background: url(../img/muffin-pink.png) left center no-repeat;
+}
+
+header ul li:hover a {
+  color: #ff9999;
+  text-decoration: none;
+}
+
+header h1 {
+  color: #ffffff;
+  font-size: 65px;
+  text-transform: uppercase;
+  margin: 220px 0 100px;
+}
+
+header .btn {
+  padding: 25px 50px;
+  margin: 0 auto 170px;
+  background-color: #99cc99;
+  border-radius: 7px;
+  color: #ffffff;
+  font-size: 38px;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 3px 7px rgba(0, 0, 0, 0.6);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-style: none;
+}
+
+header .btn:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+header .btn:focus {
+  background-color: #68b968;
+}
+
+header .modal-content {
+  background: #ffffcb;
+  border: none;
+}
+
+header .modal-content .btn {
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+header .modal-content .form-control {
+  background-color: transparent;
+  margin: 20px 0;
+}
+
+header .modal-content .form-control:focus {
+  background: -webkit-gradient(linear, left top, right top, from(#ffffcb), to(#ff9999));
+  background: linear-gradient(90deg, #ffffcb 0%, #ff9999 100%);
+}
+
+header .modal-content .close {
+  margin: -40px -40px 0 0;
+}
+
+section {
+  padding-bottom: 100px;
+  background: #ffffcb;
+  background: -webkit-gradient(linear, left top, right top, from(#ffffcb), color-stop(35%, #ffcccc), to(#ff9999));
+  background: linear-gradient(90deg, #ffffcb 0%, #ffcccc 35%, #ff9999 100%);
+}
+
+section h2 {
+  padding: 50px 0 80px;
+  color: #333333;
+  font-size: 75px;
+  font-weight: bold;
+}
+
+section p {
+  line-height: 40px;
+  font-size: 25px;
+}
+
+section .carousel-small {
+  display: none;
+}
+
+section#details {
+  background: url(../img/Layer_6.png) center top no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #ffff;
+}
+
+section#details .det_icon {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  background-color: #99cc99;
+  border-radius: 50%;
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+
+footer {
+  padding-top: 50px;
+  background-color: #7fcd98;
+}
+
+footer .footer-socials {
+  padding: 50px 0;
+  font-size: 70px;
+}
+
+footer .footer-socials a {
+  color: #333333;
+}
+
+footer .footer-socials a:hover {
+  color: #464646;
+}
+
+footer .footer_address {
+  font-size: 35px;
+}
+
+footer #footer_map {
+  width: 400px;
+}
+
+.logo {
+  color: #333333;
+  font-family: 'Pacifico';
+  font-size: 37px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=main.css.map */

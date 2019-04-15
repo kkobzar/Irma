@@ -1,0 +1,89 @@
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    body{
+        .hidden-xs{
+            display: none;
+        }
+        .logo{
+            font-size: 25px;
+        }
+        header{
+            padding-top: 20px;
+            nav{
+                
+                ul{
+                    
+                    text-align: right;
+                    li{
+                        font-size: 20px;
+                        background: none;
+                        &:hover{
+                            background: none;
+                        }
+                    }
+                }
+                .fa-bars{
+                    color: #333333;
+                }
+            }
+            .navbar{
+                padding: 0;
+            }
+            h1{
+                font-size: 40px;
+                margin: 100px 0 100px;
+            }
+            .btn{
+                font-size: 20px;
+                margin-bottom: 150px;
+            }
+        }
+        section{
+            h2{
+                font-size: 50px;
+                padding: 35px 0;
+            }
+            p{
+                line-height: 25px;
+                font-size: 20px;
+            }
+        }
+        footer{
+            padding-top: 20px;
+            .footer-socials{
+                padding: 20px 0;
+                font-size: 40px;
+            }
+            .footer_address{
+                font-size: 25px;
+            }
+        }
+    }
+ }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+    %padding-xs{
+        padding: 10px 10px;
+    }
+    body{
+        header, section, footer{
+            @extend %padding-xs;
+        }
+    }
+ }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { 
+    #gallery{
+        .carousel-big{
+            display: none;
+        }
+        .carousel-small{
+            display: block;
+        }
+    }
+ }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {  }
